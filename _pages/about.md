@@ -4,6 +4,4 @@ title: About
 permalink: /about
 ---
 
-*This is an about page.*
-
-Feel free to tell the world about what you love! 😍
+Hello, I'm Astryd. I'm studying MSc Creative Computing at the University of the Arts London.
