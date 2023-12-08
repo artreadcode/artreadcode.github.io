@@ -35,9 +35,15 @@ My brain was full of question marks. This idea was great if it were on the sci-f
 
 ## 2. (Week 7)
 
+I thought about a typewriter for generating document while audiences present in the exhibition, but there was zero percents of probability that I could purchase it. So I decided to change the plan. 
+
 ## 3. (Week 8)
 
+Beginning of coding. Arduino part was easy, but 
+
 ## 4. (Week 9)
+
+The first idea of huge housing was recycling cardboards from Art Shop because 3D printers are still not available and there was no time for waiting for vacancy. To recreate Brutalism with cardboards I bought 
 
 
 
