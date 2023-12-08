@@ -17,9 +17,27 @@ What happened around the world? People obeyed the law of computers with loyalty,
 
 That's why I built this *2084: A Brutal Reception Desk*. Here's the journey of it.
 
-## Week 0
+## 0. (~The Presentation Day from  Week 5)
 
 What if computers use when they observe the world? Might use OpenCV, though, if it would still alive in 2084. Brought the notion of reception desks in the real world, my first plan was if an audience submit their document to a receptionist through a slit, their information would be logged on the National database. That's why I included a webcam, two servos and and transparent acrylics to receive information and design a housing.
 
 ![Initial Sketch](https://github.com/artreadcode/artreadcode.github.io/blob/main/assets/images/2023/UAL/Pcomp/plan.png?raw=true)
+
+The initial process was this: An audience comes up. They hold their *paper* includes their basic personal information. They put their palm on a load sensor. Small gate opens and reveals a tiny slit which is perfectly fit for A4-sized paper. They submit it. A slit concealed. A webcam indicates information and pick image data from it. A computer mixes image data pixel group by pixel group. It will show the result on the display and the piezo will madly beep. End of the registration process in 2084.
+
+The housing result was a huge, teacher's desk-looking instalment because I needed to conceal my MacBook and A4-sized documents from audiences. Also, after the week 5 presentation, I suddenly realised what was the problem of my project. Painful debugging and redesigning processes beginneth.
+
+## 1. (Week 6)
+
+Consider everything, Astryd. How could you force audiences about including their sensitive information (some of them might consider their gender as sensitive information) on paper? Also, is there any way of preparing documents when they're in the exhibition? How could they?
+
+My brain was full of question marks. This idea was great if it were on the sci-fi film and work as a CGI. This is, however, a student project which will be displayed in the classroom. If they should use another laptop to create a word file, jot something down, print it out using CCI's printer and line up at the front of the reception desk, it would be disastrous. That's not a physical computing project. Also, it didn't perfectly suit my intention. What should I do? I spent whole week doodling, suffering, googling and with desperation.
+
+## 2. (Week 7)
+
+## 3. (Week 8)
+
+## 4. (Week 9)
+
+
 
