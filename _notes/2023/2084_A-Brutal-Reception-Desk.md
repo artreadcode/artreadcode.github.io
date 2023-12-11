@@ -19,7 +19,7 @@ That's why I built this *2084: A Brutal Reception Desk*. Here's the journey of i
 
 ## 0. (~The Presentation Day from  Week 5)
 
-What if computers use when they observe the world? Might use OpenCV, though, if it would still alive in 2084. Brought the notion of reception desks in the real world, my first plan was if an audience submit their document to a receptionist through a slit, their information would be logged on the National database. That's why I included a webcam, two servos and and transparent acrylics to receive information and design a housing.
+What computers use when they observe the world? Might use OpenCV, though, if it would still alive in 2084. Brought the notion of reception desks in the real world, my first plan was if an audience submit their document to a receptionist through a slit, their information would be logged on the National database. That's why I included a webcam, two servos and and transparent acrylics to receive information and design a housing.
 
 ![Initial Sketch](https://github.com/artreadcode/artreadcode.github.io/blob/main/assets/images/2023/UAL/Pcomp/plan.png?raw=true)
 
