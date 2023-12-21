@@ -13,6 +13,9 @@ In developing countries such as South Korea, the conflict between old generation
 So, *Newspeak* is already settled down in South Korea society. Here and there. Fewer consonants and vowels, replacing other words with the original form of vocabularies that doesn't contain prefixes, make people more dumber and meaner. Watching every phenomenon as a avid reader of '1984' (read this book more than twenty times), I realised the year 2084 would be exactly same as the world from '1984'.
 
 This is the beginning of this project '2084'.
+
+![The Idea comes from the unstoppable thoughts!](https://github.com/artreadcode/artreadcode.github.io/blob/main/assets/images/2023/UAL/Pcomp/Imagination.JPG?raw=true)
+
 What happened around the world? People obeyed the law of computers with loyalty, behaving and thinking alike. Terrible modern UI demonstrates this-even people couldn't complain because they had to wait until the bug fixed by tech giants. Computers became humans, meanwhile, won in Go games, draw realistic paints, distinguish dogs and cats, give brighter solutions while 'chatting' with a person, etc. This is what I wanted to implement in the year 2084, dystopian world where computers are look like and behave like organisms.
 
 That's why I built this *2084: A Brutal Reception Desk*. Here's the journey of it.
@@ -65,7 +68,17 @@ Right after the first test, I put a yellow LED on the circuit and make the progr
 
 ## 3. (Week 8)
 
-Finally, I started to code the actual backend of the reception desk. I made a huge amount of PDF for week 8 and 9. 
+Finally, I started to code the actual backend of the reception desk. I made a huge amount of PDF for week 8 and 9. This is the link of the PDF: https://drive.google.com/file/d/1Q1lyQgTyWEcsF5AMcc0mAXmQQAA3VXjW/view?usp=sharing
+
+1. ==A tilt switch → A toggle switch==: At the first time, I tried to use a tilt switch to turn the machine on and off. This step indicates if the new user comes up to the reception desk and ready to insert their information to the desk or not. But I discovered significant glitches on my code. It was weird because sometimes my code was working and sometimes didn't. I booked the tutorial with Agnes and discovered a tilt switch is a switch from a marble toy that I used to play when I was a child, not a proper switch to indicate 0s and 1s. I broke down the limit switch (Poor thing!) and finally realised the mechanism of it. I started to use a toggle switch which looks exactly like this.
+
+![A toggle switch from the opening credit from Loki](https://github.com/artreadcode/artreadcode.github.io/blob/main/assets/images/2023/UAL/Pcomp/toggle.JPG?raw=true)
+
+2. ==A slit with two servos and a load cell → Two limit switches==: When my idea sticked to a design looks like a teachers desk I needed a slit to make audiences submit their information as paper. However after I decreased the size of the reception desk due to the financial problem and lack of time, I don't need it anymore. It makes computers machines. What is the natural form of interaction when humans need to submit something to someone? <br> There's a term: "Pass me the paper." I can do that with limit switches. When people give something to someone they put the object onto the palm. I decided to use limit switches instead of a load cell because I don't need to weigh anything on this project. Go sleep, my load cell. Maybe next time.
+
+3. ==A piezo → Several servos==: If the user takes too long to submit their submission, the reception desk would beep loudly. However, this is too simple for an organism, so I changed it to the servos. If the computer angry at you it will slam the bell. Like a teacher back in the school years. Also at the end of the interaction it will show similar movements like a human. I don't know the final form of it yet, but we'll see how it ends. The current thought of my project is the final step of the project is too vague and meaningless, so I need to fix it.
+
+4. ==Two webcams → Only one webcam==: I kept thinking myself that using two webcams is nonsense because information of audiences is already created by a computer. Why you need to submit your paper into a digital way using another webcam on the computer? It is total nonsense. That's why I changed the way of submitting paper to the reception desk. Computer already knows information, so there should be another way to make the user think that their information is submitted to the reception desk. 
 
 ## 4. (Week 9)
 
