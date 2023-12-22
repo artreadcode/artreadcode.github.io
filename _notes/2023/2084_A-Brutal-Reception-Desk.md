@@ -154,6 +154,8 @@ Also, because of several reasons in my life (e.g. financial crisis, etc.) effect
 
 This is the nice start. In this term I can finally discover the possibilities of creative computing. I really want to be a pioneer of the broadening of creative computing. With every effort and more hard work, yes, I can do that.
 
+![Added after the demo day - Thank you, Adina! For this wonderful photograph!](https://github.com/artreadcode/artreadcode.github.io/blob/main/assets/images/2023/UAL/Pcomp/demo-day.jpg?raw=true)
+
 
 
 
