@@ -54,7 +54,7 @@ I bought a load cell and a HX711 amplifier on Amazon. Also a teacher's bell. A l
 
 ![The Teacher's Bell that I Bought from Amazon](https://github.com/artreadcode/artreadcode.github.io/blob/main/assets/images/2023/UAL/Pcomp/bell.png?raw=true)
 
-This bell looks as suspicious as Miss Minutes. My intention is succeeded.
+This bell looks as suspicious as Miss Minutes. My intention is succeeded!
 
 ![The Image of Miss Minutes](https://github.com/artreadcode/artreadcode.github.io/blob/main/assets/images/2023/UAL/Pcomp/miss-minutes.png?raw=true)
 
@@ -82,7 +82,7 @@ Finally, I started to code the actual backend of the reception desk. I made a hu
 
 - ==A physical printer → Morse codes and a thermal printer==: To create information as a physical form I stumbled upon an idea of a *ticket*. If the reception desk creates a ticket and make the user submit onto a palm of itself, it would be very meaningful interaction. After the user submit their information the desk will print out *the ticket*. I need to build a backend of translating morse codes into a `String` and send it to the Arduino for printing.
 
-Also, this week was **Extremely hell** because of building a morse code transmitter from scratch using Arduino IDE and Python. Everyone (including Agnes) acknowledged that my project is extremely complicated and very difficult to build, but I managed to do that. So proud of you!
+Also, **this week was Extremely hell** because of building a morse code transmitter from scratch using Arduino IDE and Python. Everyone (including Agnes) acknowledged that my project is extremely complicated and very difficult to build, but I managed to do that. So proud of you!
 
 I tried to use a limit switch to insert a morse code into the reception desk. But I realised I wanted to make a new interaction for the inserting process. I started to think what's the best input for creating short and long signals. And arrived at the point. It was ==a potentiometer==. Measuring time between the highest and the lowest resistance using `millis()` it would be the best indicator for dividing electrical signals into long signals and shorter ones. That's the basic concept of morse codes. If the time is short it would be translated into a short signal of morse codes and if it takes slightly long than it would be translated into a long signal. For Python, I used an indicator and send indicators to Python script to store them into `.` or `_`, just like morse codes.
 
@@ -106,17 +106,53 @@ I tried to send the huge hexadecimal array which is a size of 300 x 300 to Ardui
 
 ![Example C++ header file](https://github.com/artreadcode/artreadcode.github.io/blob/main/assets/images/2023/UAL/Pcomp/header.png?raw=true)
 
-Everyone told me I would fail but I did it. *Almost* did it because I realised C++ couldn't imply the live update of its header file because, obviously, C++ complies everything prior to execution. So it means that a thermal printer now can print something out but it is the result of a past user. That's a incomplete workflow. I decided to print this hexadecimal array straightly on a thermal printer because people need to obey the computer's way. The user can see their face but cannot understand because data is processed already. That's what the modern algorithm acts like. The veiled backend processing conceals everything and people of colours, women and others become victims.
+Everyone told me I would fail, but I did it. *Almost* did it because I realised C++ couldn't imply the live update of its header file because, obviously, C++ complies everything prior to execution. So it means that a thermal printer now can print something out but it is the result of a past user. That's a incomplete workflow. I decided to print this hexadecimal array straightly on a thermal printer because people need to obey the computer's way. The user can see their face but cannot understand because data is processed already. That's what the modern algorithm acts like. The veiled backend processing conceals everything and people of colours, women and others become victims.
 
 I cannot spend all paper roll for printing such a huge hexadecimal array so selected some pixel data from the array.
 
 The final step of this huge backend is sending all processed data into the Arduino and process it along the rules. I printed `String` data and hexadecimal data. That was the easiest part for a thermal printer. But this printer is so tricky to use, so I finally understood why Adafruit stopped making it.
 
-Now I should design the housing and confirm the result of whole interactions as quickly as possible.
+After finishing initial circuit design I soldered a lot. Now I should design the housing and confirm the result of whole interactions as quickly as possible.
+
+![first soldering](https://github.com/artreadcode/artreadcode.github.io/blob/main/assets/images/2023/UAL/Pcomp/first-soldering.JPG?raw=true)
 
 ## 4. (Week 9)
 
-This week was all about debugging my circuit and building a proper housing for my project. I finally escaped from the huge teacher's desk-like housing and explore Brutalism with plywoods, transparent acrylic plates and clay. For plywoods I built outer rim of the housing. For acrylic plates it would contain information of interaction. I especially select transparent acrylics because Nothing Phone (1) gave me an idea. I think if the computer reveals everything about itself transparently people still couldn't understand what it's up to. That's Brutalism. Also plywoods really help me to create cold-looking housing. 
+This week was all about debugging my circuit and building a proper housing for my project. I finally escaped from the huge teacher's desk-like housing and explore Brutalism with plywoods, transparent acrylic plates and clay. For plywoods I built outer rim of the housing. For acrylic plates it would contain information of interaction. I especially select transparent acrylics because Nothing Phone (1) gave me an idea. I think if the computer reveals everything about itself transparently people still couldn't understand what it's up to. That's Brutalism. Also plywoods really help me to create cold-looking housing.
+
+![the sketch of the housing](https://github.com/artreadcode/artreadcode.github.io/blob/main/assets/images/2023/UAL/Pcomp/sketch-of-housing.JPG?raw=true)
+
+I tried to build the housing with cardboards at first but it looks very messy so I left it as an initial try.
+
+![initial housing](https://github.com/artreadcode/artreadcode.github.io/blob/main/assets/images/2023/UAL/Pcomp/first-housing.JPG?raw=true)
+
+The user interface should be combined as a form of cold, physical buttons and switches, not containing friendlier input devices. Also it should looks like a small Brutalism building. I added clay for its organism-like touch. When clay from Art Shop hardens it gives you creepy feelings. I covered a Logitech webcam with clay and transformed it into an eye. For servos and a limit switch, I created hands and legs. After I finished the sketch of the housing and figured it out well suddenly the proper ending of this project was arrived. After a thermal printer prints the *ticket*, the user has to be given an autograph of the reception desk. After that the user can become a proper citizen of year 2084. Signing on the paper makes a computer alive and I'm finally satisfied with the whole workflow.
+
+Also I tried more proper soldering with a toggle switch and limit switches. Lexin thought me how to use three-pinned switches properly so I figured out why some glitches kept happening on my circuit. For my object, I needed to choose only two pins from switches and use them like a pushbutton's. I cancelled all soldering that I did before and start again. I was extremely painful because I already burnt several spots on my fingers. But it leads a better result, though. Sometimes cancel everything and start from the beginning would be extremely helpful.
+
+![Soldering...again.](https://github.com/artreadcode/artreadcode.github.io/blob/main/assets/images/2023/UAL/Pcomp/soldering.JPG?raw=true)
+
+I trapped inside the building while using a laser cutter late at night. What a wonderful experience. And yes, I designed everything with a glue gun, clay and huge effort.
+
+![An eye](https://github.com/artreadcode/artreadcode.github.io/blob/main/assets/images/2023/UAL/Pcomp/eye.JPG?raw=true)
+
+![Hands](https://github.com/artreadcode/artreadcode.github.io/blob/main/assets/images/2023/UAL/Pcomp/hand.JPG?raw=true)
+
+After all of this, I should record a teaser trailer for this project and showcasing whole interactions. Cinematic Mode on my iPhone helped me a lot.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/o1TTCmOTaoM?si=00m1vcfyPEDo_0xk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+![The title image of the brutal reception desk](https://github.com/artreadcode/artreadcode.github.io/blob/main/assets/images/2023/UAL/Pcomp/final.JPG?raw=true)
+
+## Is This the End?
+
+Definitely not. We didn't conduct any show. It is extremely sad but Jessica conducted a small *Demo day* for students who want to voluntarily showcase their work. I signed up for it, too. And really looking forward to it.
+
+If there were an exhibition by CCI I really wanted to design the whole process of this reception desk. Make a reception desk really huge, make a queue at the front of the desk and make a huge showcase video, not only presenting my work awkwardly toward the camera. If there were a chance, I would definitely sign up for the external exhibition, etc. Hopefully someone can lead me to do that.
+
+Also, because of several reasons in my life (e.g. financial crisis, etc.) effected me a lot and that's why I *slightly* failed to do a proper time management. If I start something at the very first it wouldn't be harder than this. I swear I'll perform better in the next time. I realised why time management and building a workflow at the very beginning of the huge project is extremely important.
+
+This is the nice start. In this term I can finally discover the possibilities of creative computing. I really want to be a pioneer of the broadening of creative computing. With every effort and more hard work, yes, I can do that.
 
 
 
