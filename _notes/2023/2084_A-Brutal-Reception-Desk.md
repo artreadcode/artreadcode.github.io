@@ -156,6 +156,8 @@ This is the nice start. In this term I can finally discover the possibilities of
 
 ![Added after the demo day - Thank you, Adina! For this wonderful photograph!](https://github.com/artreadcode/artreadcode.github.io/blob/main/assets/images/2023/UAL/Pcomp/demo-day.jpg?raw=true)
 
+c.f. This photo is added after the demo day.
+
 
 
 
