@@ -15,14 +15,14 @@ What is the main goal of creative coding projects? What's the limitation of them
 {video description}
 - [p5.js sketch](https://editor.p5js.org/artreadcode/sketches/Dpkmg0nAO)
 ![weekly 01](https://github.com/artreadcode/artreadcode.github.io/blob/main/assets/images/2023/UAL/Coding/screenshot%20(It's%20cold%20outside).png?raw=true)
-
+With the wonderful song 'Time in a Bottle' by Jim Croce, I created calm, Adobe Illustrator style snowy scene. I kept experimenting recreating vector style image only on computer code, rather than complicated Graphic User Interface(GUI). The extension of 'A Cloud full of Cheese and Other Short Stories' project, I tried to implement a short story inside of a `p5.js` sketch. Whenever I see the computational art, I couldn't stop thinking but there are less sensation, relaxed, and thoughtful touches than fine art projects. I brought strict OOP (Object-Oriented Programming) style for particle systems, their lifecycles, and every elements inside of the sketch. Added user interactions with mouse click (a candle) and a slider (the wind which affects snow particles) this virtual window delivers a deep thought to the user who wants to relax, to focus, or to take a look at the computer and find any meanings from the relationship between the user and the computer.
 
 ## Weekly project 02: "ignition"
 {video description}
 - [ignition](https://git.arts.ac.uk/pages/23005523/ignition/)
 - [Git repository](https://git.arts.ac.uk/23005523/ignition)
 ![weekly 02](https://github.com/artreadcode/artreadcode.github.io/blob/main/assets/images/2023/UAL/Coding/screenshot%20(ignition).png?raw=true)
-From week four, I was ordered to act like a senior developer and make an interactive animation until week six. This is the outcome of the group project.
+From week four, I was ordered to act like a senior developer and make an interactive animation until week six. This is the outcome of the group project. (Members: me(Astryd Park), Mishma Toppo, Shuqi(Liz) Qiu, Xinyue Chen, Yawen Lyu, Yi Xu, Yiwen Dai, Yucheng Wang)
 
 
 ## Weekly project 03: "The World Wide Web"
