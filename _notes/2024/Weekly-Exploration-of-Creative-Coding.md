@@ -22,7 +22,8 @@ What is the main goal of creative coding projects? What's the limitation of them
 - [ignition](https://git.arts.ac.uk/pages/23005523/ignition/)
 - [Git repository](https://git.arts.ac.uk/23005523/ignition)
 ![weekly 02](https://github.com/artreadcode/artreadcode.github.io/blob/main/assets/images/2023/UAL/Coding/screenshot%20(ignition).png?raw=true)
-From week four, I was ordered to act like a senior developer and make an interactive animation until week six. This is the outcome of my group project.
+From week four, I was ordered to act like a senior developer and make an interactive animation until week six. This is the outcome of the group project.
+
 
 ## Weekly project 03: "The World Wide Web"
 {video description}
