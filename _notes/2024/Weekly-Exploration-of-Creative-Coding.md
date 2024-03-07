@@ -12,7 +12,8 @@ What is the main goal of creative coding projects? What's the limitation of them
 ## Weekly project 01: "It's Cold Outside"
 {video description}
 - `p5.js` sketch: https://editor.p5js.org/artreadcode/sketches/Dpkmg0nAO
-![[screenshot (It's cold outside).png]]
+![[https://github.com/artreadcode/artreadcode.github.io/blob/main/assets/images/2024/UAL/Coding/screenshot (It's cold outside).png]]
+
 
 ## Weekly project 02: "ignition"
 {video description}
