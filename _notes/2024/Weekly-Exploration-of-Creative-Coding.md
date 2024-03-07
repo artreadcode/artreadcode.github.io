@@ -9,7 +9,7 @@ tags:
 # In the beginning...
 What is the main goal of creative coding projects? What's the limitation of them? Why am I learning this? Which element should I focus and improve if I want to be a true artist/developer? In this term, I want to answer to these questions while developing each week's assignments. For all of the outcomes, I selected three artworks that can answer my questions best. The first project is a narrative scene, the second is the collection of narrative scenes which becomes an interactive animation, and the last one is deconstructing typography. Each subheading contains a brief introduction, a short demo video, and a link to a `p5.js` editor. (I prefer this for weekly assignments because it's more convenient when you need to manage lots of internal files.)
 
-- `git` repository for all code collection: https://git.arts.ac.uk/23005523/coding-two-weekly
+- `git` repository for all code collection: [here](https://git.arts.ac.uk/23005523/coding-two-weekly)
 
 ## Weekly project 01: "It's Cold Outside"
 {video description}

@@ -2,6 +2,8 @@
 title: "2084: A Brutal Reception Desk"
 tags:
   - Physical-Computing
+  - UAL
+  - CCI
 date: 2023-12-07
 ---
 ## In the Beginning...
