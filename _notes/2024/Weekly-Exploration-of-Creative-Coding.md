@@ -12,7 +12,7 @@ What is the main goal of creative coding projects? What's the limitation of them
 - `git` repository for all code collection: [here](https://git.arts.ac.uk/23005523/coding-two-weekly)
 
 ## Weekly project 01: "It's Cold Outside"
-{video description}
+- [Video description](https://youtu.be/_yW7UL689UI)
 - [p5.js sketch](https://editor.p5js.org/artreadcode/sketches/Dpkmg0nAO)
 ![weekly 01](https://github.com/artreadcode/artreadcode.github.io/blob/main/assets/images/2023/UAL/Coding/screenshot%20(It's%20cold%20outside).png?raw=true)
 
@@ -21,6 +21,7 @@ With the wonderful song 'Time in a Bottle' by Jim Croce, I created calm, Adobe I
 ## Weekly project 02: "ignition"
 {video description}
 - [ignition](https://git.arts.ac.uk/pages/23005523/ignition/)
+- [Video description](https://youtu.be/8mXPoTSk6gk)
 - [Git repository](https://git.arts.ac.uk/23005523/ignition)
 ![weekly 02](https://github.com/artreadcode/artreadcode.github.io/blob/main/assets/images/2023/UAL/Coding/screenshot%20(ignition).png?raw=true)
 
@@ -29,7 +30,7 @@ From week four, I was ordered to act like a senior developer and make an interac
 This short animation inspired by [Kids](https://playkids.ch/), a game created by [Michael Frei](http://michaelfrei.io/) and [Mario von Rickenbach](http://mariov.ch/). (That's why most of the scene are showing the hand drawing style animation.) I wanted to make huge short animation with different scenes which show the development of the story. We focused on human emotion, mostly anxiety. We demonstrated anxiety into different visual aspects and I think we did a good job. For example, in the introduction, the player should find the colour difference when they move the mouse pointer around the middle of the screen and catch that if they keep pressing the mouse the ripple would be created. When they are waiting for the transition they would feel anxiety. In this animation, we kept asking questions for the interaction between human and machine, with what's the value of interaction, what we humans actually get from it. Did we successfully grab happy, immersive experience from HCI? We tried to answer no.
 
 ## Weekly project 03: "The World Wide Web"
-{video description}
+- [Video description](https://youtu.be/d72y6Spau94)
 - [p5.js sketch for digital display](https://editor.p5js.org/artreadcode/sketches/0KWhmm3kn)
 - [p5.js sketch for Axidraw](https://editor.p5js.org/artreadcode/sketches/7N90FGRXK )
 ![weekly 03](https://github.com/artreadcode/artreadcode.github.io/blob/main/assets/images/2023/UAL/Coding/screenshot%20(the%20world%20wide%20web).gif?raw=true)
