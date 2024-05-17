@@ -1,5 +1,5 @@
 ---
-title: "A Mindfield: a science fiction thriller game"
+title: "A Minefield: a science fiction thriller game"
 date: 2024-05-17
 tags:
   - CCI
