@@ -18,6 +18,16 @@ Which interaction does Creative computing provide to audience? Think of them as 
 
 What's the other thing that I've got a huge passion? The answer is Quantum computing.
 Quantum computing is also built upon interaction. It's using the world's most tiniest, fundamental interaction to encode information. In Classical mechanics, we can precisely predict the future and study the past. But in Quantum mechanics, all things work with probability. Probability of quantum-scale beings are emerged or not.
-There's a way of visualisation where researchers tried to map quantum-scale interaction to 3D. It's called Bloch Sphere. It's useful for mapping few qubits as a representation of a sphere. Wherever the vector points, that's the quantum state for the qubit. 
+There's a way of visualisation where researchers tried to map quantum-scale interaction to 3D. It's called *Bloch Sphere*. It's useful for mapping few qubits as a representation of a sphere. Wherever the vector points, that's the quantum state for the qubit. It's hard to imagine or explain the quantum state and their probabilistic nature, but at least I can imagine they're acting inside of high-dimensional number space, not on the flat surface like we're using when we design a quantum circuit.
 
+That's the common thing between humans and quantum-scale beings. We're happy when we're interacting spatially. We cannot live without meaningful interactions. And obviously, without quantum-scale beings, humans cannot exist. We should thank for them.
+And here's my goal of this dissertation: Whatever the format of the artwork is, I *will* work with spatial interaction. I want to do something about Physical computing and Quantum computing. Because they're sharing the same nature. I've got loads of ideas, and the thing that I really want to do is making a huge maze so that the audience can enter and get lost inside. So that they can feel the feelings of quantum when they are in the maze.
+
+But I heard back from CCI technicians about the sad truth. The space isn't enough for that huge physical installation. And there would be a huge cost to build such of thing. So, I also imagined the 2D maze on the floor or on the wall but that's not enough. This shouldn't be just a random walk. There has to be a logical reason and a result. But I don't have time to explore the huge connection between poetry, 3D space, music, etc. Because I insist poetry is another form of 3D interaction using words. Music also interacts us with spatial interaction. And for Quantum computing as well. Everything is connected. But I need to figure out how can I accomplish that goal in this small amount of time. Like Rebecca warned me during our first meeting, it should make sense and deliver the good storytelling of **What I did, Why I did and How I did**.
+
+I just finished the Summer term. I need some rest. Apart from the courseworks, I also completed IBM Quantum Challenge 2024. So, I deserve rest. While reading this book in Inner Temple Garden, imagining the enjoyable moment at Moth Quantum, which is the company that I will start working at from July⋯⋯.
+
+![I finished the IBM Quantum Challenge successfully](https://github.com/artreadcode/artreadcode.github.io/blob/main/assets/images/2024/IMG_0054.jpeg?raw=true)
+
+![Reading time in Inner Temple Garden](https://github.com/artreadcode/artreadcode.github.io/blob/main/assets/images/2024/IMG_0062.JPG?raw=true)
 
