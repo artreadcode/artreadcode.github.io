@@ -8,6 +8,9 @@ tags:
   - Dissertation
   - Physical-Computing
 ---
+### Previously on...
+[[Dissertation-The Story of June]]
+
 July 2024 was the first month that I work at [Moth](https://mothquantum.com/). I started my role as a Creative Quantum Developer, so I created lots of ideas of creative quantum applications. From the TouchDesigner project to my will-be dissertation project, Quantum poetry + maze. I created the database of critical reading materials for the idea to narrow down my research question, but whenever time goes by, it's actually getting difficult, not getting easier.
 
 ![The complex reading list that I built...](https://github.com/artreadcode/artreadcode.github.io/blob/main/assets/images/2024/Screenshot%202024-10-28%20at%2017.48.18.png?raw=true)

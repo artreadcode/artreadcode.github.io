@@ -8,6 +8,9 @@ tags:
   - Dissertation
   - Physical-Computing
 ---
+### Previously on...
+[[Dissertation-The-Story-of-August-and-September(ish)]]
+
 - Achievement one: **ual:Qiskit Fall Fest 2024** went incredibly well!
 ![Me doing lectures of Quantum computing](https://github.com/artreadcode/artreadcode.github.io/blob/main/assets/images/2024/IMG_0002.jpg?raw=true)
 - Achievement two: I went a one-night holiday to my friend's house in Colchester!
