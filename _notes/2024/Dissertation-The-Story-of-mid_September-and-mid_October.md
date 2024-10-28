@@ -12,7 +12,7 @@ tags:
 ![Me doing lectures of Quantum computing](https://github.com/artreadcode/artreadcode.github.io/blob/main/assets/images/2024/IMG_0002.jpg?raw=true)
 - Achievement two: I went a one-night holiday to my friend's house in Colchester!
 
-⋯⋯ In the past few weeks, I set my dissertation aside and focused on hosting the perfect event for the beginners of Quantum computing. While preparing for the event, there was two important meetings with Rebecca and Polo, also a chance to set the short-term goal for my dissertation.
+In the past few weeks, I set my dissertation aside and focused on hosting the perfect event for the beginners of Quantum computing. While preparing for the event, there was two important meetings with Rebecca and Polo, also a chance to set the short-term goal for my dissertation.
 
 Rebecca said I should **say clearly about the fact that this project is not affiliated from the company and all work is purely by myself**. I plan to include it in the introduction or in the technical motivation section of the paper. However, I'm so glad that I found the solution as a member of Moth, because there will be lot of opportunities of raising questions, because CCI can't help me with Quantum computing. I also bought the [*Bela board*](https://bela.io/products/bela-and-bela-mini/), just in case. But I've got important insight with help from Lieven, Tom and Rohit, too.
 
