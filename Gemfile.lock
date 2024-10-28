@@ -79,7 +79,7 @@ GEM
     webrick (1.8.2)
 
 PLATFORMS
-  ruby
+  ruby (~> 3.2)
 
 DEPENDENCIES
   jekyll (~> 4.3)
