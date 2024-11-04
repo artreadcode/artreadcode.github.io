@@ -24,7 +24,7 @@ Along with the structure of my paper, I built `Micromoth for Arduino`. I couldn'
 `Micromoth` stems from `MicroQiskit`, which is the essential version of `IBM Qiskit` for the simplest Quantum computing applications. I remember it was this May, but IBM released `Qiskit v1.0` and it leads to lack of support to `MicroQiskit`, which is now deprecated. So, the company that I'm working at, Moth, forked the official repository and started to adapt it for `Qiskit v1.0` which is now called `Micromoth`. There's the fundamental file called `micromoth.py` for Python. It's comparatively easier to make Qiskit simpler for Python because it originally used Python. However, for other programming languages, especially for microcontrollers, it's disastrous.
 
 Why it's like that? Because `Arduino C++` don't have key features of Python and the modern C++. It don't support dynamic arrays, effective resource distribution for maths, plus the hardware restriction. On Arduino website, the one that I borrowed from CCI, `Arduino Mega 2560`'s spec sheet is like this:
-```
+``` ino
 |Clock speed|   |   |
 |Main Processor|ATmega2560 16 MHz|
 |USB-Serial Processor|ATmega16U2 16 MHz|
@@ -37,7 +37,7 @@ It's so tiny for cloud-based Quantum computing like Qiskit. If you want to use Q
 
 What should I do to create header files? First of all, because it's mathematically intense, I need to make a math library for this. There's `complex.h` on Arduino but it's too heavy and contains unnecessary functions for `Micromoth`. So, I decided to make my own `complex` library. Including the true-ish random number generator that I made last time, also the `1/sqrt(2)` (`r2`) constant, I included everything on the file called `MicroMothArduinoMath.h`.
 
-```
+``` cpp
 struct ComplexNumber {
 	float real;
 	float imag;
@@ -67,7 +67,7 @@ If you use `operator+`, `operator-`, `operator*`, you can override the conventio
 Now, we can move onto `MicroMothArduino.h`, the main powerhouse.
 
 In Python (Qiskit, `Micromoth.py`), you can build arrays with different data types, e.g. in the file, there's a method adding the X gate onto `QuantumCircuit`.
-``` 
+``` py
 def x(self,q):
     '''Applies an x gate to the given qubit.'''
     self.data.append(('x',q))
@@ -77,7 +77,7 @@ There're already so many issues. First of all, using `char` for every single gat
 
 Thus, the thing that I tried is building a `QuantumCircuit` class, of course, but inside of it, I created the `Op` (Operator) struct, which could not only be the gate operator, but also the tiny container which has all parameters that the gate should have.
 
-``` 
+``` cpp
 #include "MicroMothArduinoMath.h"
 
 class QuantumCircuit {
