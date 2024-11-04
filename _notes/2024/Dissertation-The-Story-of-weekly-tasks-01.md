@@ -24,7 +24,7 @@ Along with the structure of my paper, I built `Micromoth for Arduino`. I couldn'
 `Micromoth` stems from `MicroQiskit`, which is the essential version of `IBM Qiskit` for the simplest Quantum computing applications. I remember it was this May, but IBM released `Qiskit v1.0` and it leads to lack of support to `MicroQiskit`, which is now deprecated. So, the company that I'm working at, Moth, forked the official repository and started to adapt it for `Qiskit v1.0` which is now called `Micromoth`. There's the fundamental file called `micromoth.py` for Python. It's comparatively easier to make Qiskit simpler for Python because it originally used Python. However, for other programming languages, especially for microcontrollers, it's disastrous.
 
 Why it's like that? Because `Arduino C++` don't have key features of Python and the modern C++. It don't support dynamic arrays, effective resource distribution for maths, plus the hardware restriction. On Arduino website, the one that I borrowed from CCI, `Arduino Mega 2560`'s spec sheet is like this:
-``` ino
+``` 
 |Clock speed|   |   |
 |Main Processor|ATmega2560 16 MHz|
 |USB-Serial Processor|ATmega16U2 16 MHz|
@@ -81,7 +81,6 @@ Thus, the thing that I tried is building a `QuantumCircuit` class, of course, bu
 #include "MicroMothArduinoMath.h"
 
 class QuantumCircuit {
-
 	public:
 		enum GateOp { INIT, X, RX, RZ, H, CX, CRX, SWAP, RY, Z, T Y, M };
 		struct Op {
