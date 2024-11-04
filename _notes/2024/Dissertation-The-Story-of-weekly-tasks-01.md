@@ -37,7 +37,7 @@ It's so tiny for cloud-based Quantum computing like Qiskit. If you want to use Q
 
 What should I do to create header files? First of all, because it's mathematically intense, I need to make a math library for this. There's `complex.h` on Arduino but it's too heavy and contains unnecessary functions for `Micromoth`. So, I decided to make my own `complex` library. Including the true-ish random number generator that I made last time, also the `1/sqrt(2)` (`r2`) constant, I included everything on the file called `MicroMothArduinoMath.h`.
 
-``` C++
+```
 struct ComplexNumber {
 	float real;
 	float imag;
@@ -67,7 +67,7 @@ If you use `operator+`, `operator-`, `operator*`, you can override the conventio
 Now, we can move onto `MicroMothArduino.h`, the main powerhouse.
 
 In Python (Qiskit, `Micromoth.py`), you can build arrays with different data types, e.g. in the file, there's a method adding the X gate onto `QuantumCircuit`.
-``` Python
+``` 
 def x(self,q):
     '''Applies an x gate to the given qubit.'''
     self.data.append(('x',q))
@@ -77,7 +77,7 @@ There're already so many issues. First of all, using `char` for every single gat
 
 Thus, the thing that I tried is building a `QuantumCircuit` class, of course, but inside of it, I created the `Op` (Operator) struct, which could not only be the gate operator, but also the tiny container which has all parameters that the gate should have.
 
-``` C++
+``` 
 #include "MicroMothArduinoMath.h"
 
 class QuantumCircuit {
