@@ -1,6 +1,6 @@
 ---
 date: 2024-11-10
-title: "Dissertation: The Story of weekly tasks (2 Nov - 9 Nov)"
+title: "Dissertation: The Story of weekly tasks (2 Nov - 10 Nov)"
 tags:
   - Creative-Coding
   - UAL
