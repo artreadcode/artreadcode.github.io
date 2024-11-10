@@ -1,3 +1,4 @@
+
 title:               Art + Read + Code
 include:             ['_pages']
 exclude:             ['_includes/notes_graph.json']

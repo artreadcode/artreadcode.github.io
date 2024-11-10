@@ -13,11 +13,13 @@ permalink: /
 
 This is my personal blog where every story begins, even with background stories which build a whole plot.
 
+
 <strong>Recently written notes</strong>
 
 <ul>
   {% assign recent_notes = site.notes | sort: "date" | reverse %}
-  {% for note in recent_notes limit: 5 %}
+  {% for note in recent_notes limit: 10 %}
+
     <li>
       {{ note.date | date: "%Y-%m-%d" }} — <a class="internal-link" href="{{ site.baseurl }}{{ note.url }}">{{ note.title }}</a>
     </li>
@@ -29,3 +31,8 @@ This is my personal blog where every story begins, even with background stories 
     max-width: 46em;
   }
 </style>
+
+<div>
+<strong>All the seeds and sprouts in this garden</strong>
+{% include notes_graph.html %}
+<div>
