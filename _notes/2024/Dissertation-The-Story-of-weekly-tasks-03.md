@@ -44,7 +44,9 @@ And the result from the laser cutter looks good, too. There will two more to mak
 
 ![Acrylic disk](https://github.com/artreadcode/artreadcode.github.io/blob/main/assets/images/2024/printed-disk.JPG?raw=true)
 
-On my birthday (Friday), I had a lengthy discuss with Polo about the Methodology section. 
+On my birthday (Friday), I had a lengthy discuss with Polo about the Methodology section. I thought I finished the Methodology section within four paragraphs, but they suggested more. There was the point that I needed to review, because my writing only contained the overview of the methodology, not the detail⋯⋯. I think mine has a mixed structure between the Background, the Methodology, the Evaluation, etc. Based on our discussion, I decided to separate the visual design and the technical development (`Micromoth for Arduino`) from each other. Also, I think the detail of the Methodology could be directly imposed underneath each field so I left the Methodology section as it looks. Hope this is ok for the future⋯⋯.
+
+This long journey is going to the end. I already submitted the proposal for the degree show on Monday and I'm moving onto the building, the dissertation, the final step of coding at the same time. Also, I'm preparing for the conference/event in Cyprus in the upcoming week. There's so much things to do.
 
 c.f. I just realised that I didn't add the tiny hole for fishing lines in the middle of the disk. I need to visit CCI again⋯⋯.
 
